@@ -1,0 +1,20 @@
+# requirements.txt 파일 (Streamlit 앱용)
+
+# Streamlit UI 라이브러리
+streamlit>=1.12.0
+
+# Transformers 라이브러리 (모델과의 상호작용을 위해, 필요시 백엔드용)
+transformers>=4.37.2
+
+# PyTorch (신경망 관련 계산을 위해 필요)
+torch>=2.2.0
+
+# 선택적 도구들 (처리 및 효율적인 작업을 위해 필요)
+sentencepiece>=0.2.0
+accelerate>=0.27.0
+protobuf>=4.25.2
+
+# 추가로 필요한 모듈
+requests>=2.26.0  # API 통신을 위한 HTTP 요청 모듈
+
+# random, subprocess, re 등은 Python 표준 라이브러리에 포함되어 있으므로 별도의 설치가 필요하지 않습니다.
